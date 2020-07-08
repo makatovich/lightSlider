@@ -1,0 +1,48 @@
+.light_slider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.light_slider .sliders_window{
+    overflow: hidden;
+}
+.light_slider .sliders_wrapper {
+    display: flex;
+    transition: 1 s;
+}
+.light_slider .one_slide img {
+    width: 100%;
+}
+.light_slider .nav_block {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: -40px;
+}
+.btn_prev, .btn_next {
+    border: 0;   
+    cursor: pointer;
+    background-color: transparent;
+    font-size: larger;
+}
+.btn_prev , .btn_next:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.dotsDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 70%;
+    margin-left: 5px;
+}
+
+.active{
+    background-color: blue ;
+}
+.dot {
+    cursor: pointer;
+}
