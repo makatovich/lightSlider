@@ -1,5 +1,5 @@
 # lightSlider
-                                                                   HOW TO INSTALL THIS SLIDER TO YOUR PROJECT
+                                                            HOW TO INSTALL THIS SLIDER TO YOUR PROJECT
 
 
 FIRST, YOU NEED TO CLONE light-slider.css AND light-slider.js TO YOUR PROJECT.
